@@ -13,8 +13,8 @@ group :assets do
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
   gem 'uglifier', '1.2.3'
-end
-
+end  
+ 
 gem 'jquery-rails', '2.0.2'
 
 group :test do
@@ -24,8 +24,15 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+
+
+#gem 'libv8', '3.11.8.17'
+#gem 'therubyracer', '0.11.4'#, :plataforms => :ruby
+
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+ gem 'bcrypt-ruby', '~> 3.0.0'
+
+ 
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
