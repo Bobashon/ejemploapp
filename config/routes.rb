@@ -1,4 +1,8 @@
 Ejemploapp::Application.routes.draw do
+  get "user/new"
+
+  get "users/new"
+
   get "users/new"
 
   root to: 'static_pages#home'
